@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1 class="header">Поиск по организациям </h1>
+  <section class="search">
+    <input type="text" class="search__input" placeholder="Введите ИНН или название организации">
+    <p class="search__about">Для поиска введите ИНН или название организации и нажмите ENTER</p>
+    <ul class="result">
+    
+    </ul>
+  </section>
+  <section class="data">
+    <div class="data__container">
+      <h2 class="data__header">Полное наименование:</h2>
+      <p class="data__text data__text_name"></p>
+    </div>
+    <div class="data__container">
+      <h2 class="data__header">ИНН / КПП:</h2>
+      <p class="data__text data__text_inn"></p>
+    </div>
+    <div class="data__container">
+      <h2 class="data__header">Адрес:</h2>
+      <p class="data__text data__text_adr"></p>
+    </div>
+    <div class="data__container">
+      <h2 class="data__header">Руководитель:</h2>
+      <p class="data__text data__text_ceo"></p>
+    </div>
+  </section>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
